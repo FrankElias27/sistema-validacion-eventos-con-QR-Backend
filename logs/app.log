@@ -1,0 +1,539 @@
+2024-10-17 07:52:22 - INFO - o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.3.Final
+2024-10-17 07:52:22 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 07:52:22 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 07:52:22 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-17 07:52:22 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-17 07:52:23 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 07:52:23 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 10 JPA repository interfaces.
+2024-10-17 07:52:23 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 07:52:23 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 07:52:23 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 07:52:23 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 07:52:23 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 07:52:23 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 07:52:23 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1749 ms
+2024-10-17 07:52:24 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 07:52:24 - INFO - o.h.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+2024-10-17 07:52:24 - INFO - o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-17 07:52:24 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2024-10-17 07:52:24 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-17 07:52:24 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 07:52:25 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 07:52:25 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 07:52:26 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 07:52:27 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 07:52:27 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 07:52:27 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 07:52:27 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 07:52:27 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 5.94 seconds (JVM running for 6.788)
+2024-10-17 07:57:27 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 07:57:27 - INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-17 07:57:27 - INFO - o.s.w.s.DispatcherServlet - Completed initialization in 183 ms
+2024-10-17 07:57:35 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 07:57:37 - ERROR - c.e.a.s.C.UsuarioController - Error inesperado al registrar el usuario: Error al enviar el correo de verificación.
+2024-10-17 08:07:11 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:11 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-17 08:07:11 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-17 08:07:12 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:07:12 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:07:13 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:07:13 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:07:13 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:07:13 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:07:13 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:07:13 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:07:13 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:07:13 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:07:13 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms
+2024-10-17 08:07:13 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:07:13 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Starting...
+2024-10-17 08:07:13 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+2024-10-17 08:07:13 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:07:13 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:07:13 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:13 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:07:14 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:07:14 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:07:14 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:07:14 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:07:14 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 1.77 seconds (JVM running for 893.379)
+2024-10-17 08:07:14 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:07:15 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:15 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-10-17 08:07:15 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-10-17 08:07:16 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:07:16 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:07:16 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:07:16 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:07:16 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:07:16 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:07:16 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:07:16 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:07:16 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:07:16 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:07:16 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 400 ms
+2024-10-17 08:07:16 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:07:16 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2024-10-17 08:07:16 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2024-10-17 08:07:16 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:07:16 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:07:16 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:17 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:07:17 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:07:17 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:07:17 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:07:17 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:07:17 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 1.215 seconds (JVM running for 896.321)
+2024-10-17 08:07:17 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:07:38 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:38 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-10-17 08:07:38 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-10-17 08:07:38 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:07:38 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:07:39 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:07:39 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:07:39 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:07:39 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:07:39 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:07:39 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:07:39 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:07:39 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:07:39 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 482 ms
+2024-10-17 08:07:39 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:07:39 - INFO - c.z.h.HikariDataSource - HikariPool-4 - Starting...
+2024-10-17 08:07:39 - INFO - c.z.h.HikariDataSource - HikariPool-4 - Start completed.
+2024-10-17 08:07:39 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:07:39 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:07:39 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:40 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:07:40 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailController': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-10-17 08:07:40 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:40 - INFO - c.z.h.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2024-10-17 08:07:40 - INFO - c.z.h.HikariDataSource - HikariPool-4 - Shutdown completed.
+2024-10-17 08:07:40 - INFO - o.a.c.c.StandardService - Stopping service [Tomcat]
+2024-10-17 08:07:40 - INFO - o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-10-17 08:07:40 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailService in com.example.aos.sistema_aos_spring_boot.Controladores.MailController required a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' in your configuration.
+
+2024-10-17 08:07:57 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:07:57 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:07:58 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:07:58 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:07:58 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:07:59 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:07:59 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:07:59 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:07:59 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:07:59 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:07:59 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1315 ms
+2024-10-17 08:07:59 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:07:59 - INFO - c.z.h.HikariDataSource - HikariPool-5 - Starting...
+2024-10-17 08:07:59 - INFO - c.z.h.HikariDataSource - HikariPool-5 - Start completed.
+2024-10-17 08:07:59 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:07:59 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:07:59 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:07:59 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:07:59 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:08:00 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:08:00 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:08:00 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:08:00 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 2.526 seconds (JVM running for 939.042)
+2024-10-17 08:08:00 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:08:11 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:08:11 - INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:08:11 - INFO - o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2024-10-17 08:08:11 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:08:11 - ERROR - c.e.a.s.C.UsuarioController - Error inesperado al registrar el usuario: Error al enviar el correo de verificación.Error al enviar el correo: Bad Request - {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2024-10-17 08:09:48 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:09:48 - INFO - c.z.h.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2024-10-17 08:09:48 - INFO - c.z.h.HikariDataSource - HikariPool-5 - Shutdown completed.
+2024-10-17 08:09:49 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:09:49 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:09:49 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:09:49 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:09:49 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:09:49 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:09:49 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:09:49 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:09:49 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:09:49 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:09:49 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 733 ms
+2024-10-17 08:09:50 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:09:50 - INFO - c.z.h.HikariDataSource - HikariPool-6 - Starting...
+2024-10-17 08:09:50 - INFO - c.z.h.HikariDataSource - HikariPool-6 - Start completed.
+2024-10-17 08:09:50 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:09:50 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:09:50 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:09:50 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:09:50 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailController': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-10-17 08:09:50 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:09:50 - INFO - c.z.h.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2024-10-17 08:09:50 - INFO - c.z.h.HikariDataSource - HikariPool-6 - Shutdown completed.
+2024-10-17 08:09:50 - INFO - o.a.c.c.StandardService - Stopping service [Tomcat]
+2024-10-17 08:09:50 - INFO - o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-10-17 08:09:50 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailService in com.example.aos.sistema_aos_spring_boot.Controladores.MailController required a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' in your configuration.
+
+2024-10-17 08:09:52 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:09:52 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:09:52 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:09:52 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:09:52 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:09:52 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:09:52 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:09:52 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:09:52 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:09:52 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:09:52 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 534 ms
+2024-10-17 08:09:52 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:09:52 - INFO - c.z.h.HikariDataSource - HikariPool-7 - Starting...
+2024-10-17 08:09:52 - INFO - c.z.h.HikariDataSource - HikariPool-7 - Start completed.
+2024-10-17 08:09:52 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:09:53 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:09:53 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:09:53 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:09:53 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:09:53 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:09:53 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:09:53 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:09:53 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 1.331 seconds (JVM running for 1052.552)
+2024-10-17 08:09:53 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:09:54 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:09:54 - INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:09:54 - INFO - o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2024-10-17 08:09:54 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:09:55 - ERROR - c.e.a.s.C.UsuarioController - Error inesperado al registrar el usuario: Error al enviar el correo de verificación.Error al enviar el correo: Bad Request - {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2024-10-17 08:11:49 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:11:49 - INFO - c.z.h.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2024-10-17 08:11:49 - INFO - c.z.h.HikariDataSource - HikariPool-7 - Shutdown completed.
+2024-10-17 08:11:49 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:11:49 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:11:50 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:11:50 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:11:50 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:11:50 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:11:50 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:11:50 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:11:50 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:11:50 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:11:50 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 551 ms
+2024-10-17 08:11:50 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:11:50 - INFO - c.z.h.HikariDataSource - HikariPool-8 - Starting...
+2024-10-17 08:11:50 - INFO - c.z.h.HikariDataSource - HikariPool-8 - Start completed.
+2024-10-17 08:11:50 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:11:50 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:11:50 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:11:51 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:11:51 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailController': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-10-17 08:11:51 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:11:51 - INFO - c.z.h.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2024-10-17 08:11:51 - INFO - c.z.h.HikariDataSource - HikariPool-8 - Shutdown completed.
+2024-10-17 08:11:51 - INFO - o.a.c.c.StandardService - Stopping service [Tomcat]
+2024-10-17 08:11:51 - INFO - o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-10-17 08:11:51 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailService in com.example.aos.sistema_aos_spring_boot.Controladores.MailController required a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' in your configuration.
+
+2024-10-17 08:11:52 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:11:52 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:11:52 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:11:52 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:11:53 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:11:53 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:11:53 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:11:53 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:11:53 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:11:53 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:11:53 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 491 ms
+2024-10-17 08:11:53 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:11:53 - INFO - c.z.h.HikariDataSource - HikariPool-9 - Starting...
+2024-10-17 08:11:53 - INFO - c.z.h.HikariDataSource - HikariPool-9 - Start completed.
+2024-10-17 08:11:53 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:11:53 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:11:53 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:11:53 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:11:53 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:11:53 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:11:53 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:11:53 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:11:53 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 1.245 seconds (JVM running for 1172.834)
+2024-10-17 08:11:53 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:11:54 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:11:54 - INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:11:54 - INFO - o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2024-10-17 08:11:54 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:11:54 - ERROR - c.e.a.s.C.UsuarioController - Error inesperado al registrar el usuario: Error al enviar el correo de verificación.Error al enviar el correo: Bad Request - {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2024-10-17 08:13:56 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:13:56 - INFO - c.z.h.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2024-10-17 08:13:56 - INFO - c.z.h.HikariDataSource - HikariPool-9 - Shutdown completed.
+2024-10-17 08:13:56 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 26908 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:13:56 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:13:56 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:13:56 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:13:56 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:13:57 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:13:57 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:13:57 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:13:57 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:13:57 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:13:57 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+2024-10-17 08:13:57 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:13:57 - INFO - c.z.h.HikariDataSource - HikariPool-10 - Starting...
+2024-10-17 08:13:57 - INFO - c.z.h.HikariDataSource - HikariPool-10 - Start completed.
+2024-10-17 08:13:57 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:13:57 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:13:57 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:13:57 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:13:57 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailController': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-10-17 08:13:57 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:13:57 - INFO - c.z.h.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2024-10-17 08:13:57 - INFO - c.z.h.HikariDataSource - HikariPool-10 - Shutdown completed.
+2024-10-17 08:13:57 - INFO - o.a.c.c.StandardService - Stopping service [Tomcat]
+2024-10-17 08:13:57 - INFO - o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-10-17 08:13:57 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailService in com.example.aos.sistema_aos_spring_boot.Controladores.MailController required a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.aos.sistema_aos_spring_boot.Servicios.MailService' in your configuration.
+
+2024-10-17 08:15:17 - INFO - o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.3.Final
+2024-10-17 08:15:17 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 27812 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:15:17 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:15:17 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-17 08:15:17 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-17 08:15:17 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:15:17 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:15:18 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:15:18 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:15:18 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:15:18 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:15:18 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:15:18 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:15:18 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1536 ms
+2024-10-17 08:15:18 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:15:18 - INFO - o.h.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+2024-10-17 08:15:18 - INFO - o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-17 08:15:19 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2024-10-17 08:15:19 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-17 08:15:19 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:15:20 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:15:20 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:15:20 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:15:21 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:15:21 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:15:21 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:15:21 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:15:21 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 5.312 seconds (JVM running for 6.124)
+2024-10-17 08:15:29 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:15:29 - INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:15:29 - INFO - o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2024-10-17 08:15:29 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:18:00 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:18:00 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:18:00 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:18:01 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:18:01 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:18:04 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: usuarios, página: 0
+2024-10-17 08:18:07 - WARN - c.e.a.s.C.UsuarioController - Intento de eliminar un usuario con registros asociados: No se puede eliminar el usuario porque tiene registros asociados en eventos o cumpleaños o logs de Email.
+2024-10-17 08:18:08 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 16
+2024-10-17 08:18:13 - INFO - c.e.a.s.C.UsuarioController - Usuario eliminado con éxito: 16
+2024-10-17 08:19:06 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:19:06 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-17 08:19:06 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-17 08:19:06 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 27812 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:19:06 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:19:07 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:19:07 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:19:07 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:19:07 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:19:07 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:19:07 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:19:07 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:19:07 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:19:07 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+2024-10-17 08:19:07 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:19:07 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Starting...
+2024-10-17 08:19:07 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+2024-10-17 08:19:07 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:19:07 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:19:07 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:19:08 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:19:08 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:19:08 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:19:08 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:19:08 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:19:08 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 1.55 seconds (JVM running for 232.607)
+2024-10-17 08:19:08 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:19:09 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:19:09 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-10-17 08:19:09 - INFO - c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-10-17 08:19:10 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 27812 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 08:19:10 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 08:19:10 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 08:19:10 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 10 JPA repository interfaces.
+2024-10-17 08:19:10 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 08:19:10 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:19:10 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:19:10 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 08:19:10 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 08:19:10 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 08:19:10 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 320 ms
+2024-10-17 08:19:10 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 08:19:10 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2024-10-17 08:19:10 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2024-10-17 08:19:10 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 08:19:10 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 08:19:10 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:19:10 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 08:19:11 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 08:19:11 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 08:19:11 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:19:11 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 08:19:11 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 1.015 seconds (JVM running for 235.309)
+2024-10-17 08:19:11 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-17 08:21:20 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:21:20 - INFO - o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:21:20 - INFO - o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2024-10-17 08:21:29 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: porteros, página: 0
+2024-10-17 08:21:30 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: admins, página: 0
+2024-10-17 08:21:31 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: admins-sistema, página: 0
+2024-10-17 08:21:37 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 4
+2024-10-17 08:21:39 - INFO - c.e.a.s.C.UsuarioController - Actualizado username para el usuario ID 4: T%Frank29
+2024-10-17 08:21:39 - WARN - c.e.a.s.C.UsuarioController - La nueva contraseña es igual a la existente para el usuario ID 4
+2024-10-17 08:21:39 - INFO - c.e.a.s.C.UsuarioController - Actualizado email para el usuario ID 4: frank_osccosdasd@hotmail.com
+2024-10-17 08:21:39 - INFO - c.e.a.s.C.UsuarioController - Detalles del usuario ID 4 actualizados con éxito.
+2024-10-17 08:21:39 - INFO - c.e.a.s.C.UsuarioController - Usuario con ID 4 actualizado exitosamente.
+2024-10-17 08:21:40 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:21:40 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:21:40 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: admins-sistema, página: 0
+2024-10-17 08:24:08 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frank_oscco@hotmail.com
+2024-10-17 08:26:19 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:28:19 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: usuarios, página: 0
+2024-10-17 08:31:59 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 18
+2024-10-17 08:32:05 - INFO - c.e.a.s.C.UsuarioController - Usuario eliminado con éxito: 18
+2024-10-17 08:32:08 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:33:58 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:33:58 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:33:58 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: usuarios, página: 0
+2024-10-17 08:34:00 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 19
+2024-10-17 08:34:04 - INFO - c.e.a.s.C.UsuarioController - Usuario eliminado con éxito: 19
+2024-10-17 08:34:28 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:41:15 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:41:15 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:41:15 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: usuarios, página: 0
+2024-10-17 08:44:18 - WARN - c.e.a.s.C.MailController - Límite de envío de correos excedido para: frankmascco@gmail.com
+2024-10-17 08:44:23 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 20
+2024-10-17 08:44:25 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 20
+2024-10-17 08:45:52 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:45:52 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:45:52 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: usuarios, página: 0
+2024-10-17 08:45:53 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 20
+2024-10-17 08:45:58 - INFO - c.e.a.s.C.UsuarioController - Usuario eliminado con éxito: 20
+2024-10-17 08:46:04 - INFO - c.e.a.s.C.UsuarioController - Usuario guardado con éxito: frankmascco@gmail.com
+2024-10-17 08:46:35 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:46:35 - INFO - c.e.a.s.C.UsuarioController - Cantidad de usuarios con cumpleaños hoy: 0
+2024-10-17 08:46:35 - INFO - c.e.a.s.C.UsuarioController - Usuarios listados para el rol: usuarios, página: 0
+2024-10-17 08:46:36 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 21
+2024-10-17 08:46:38 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 21
+2024-10-17 08:46:40 - INFO - c.e.a.s.C.UsuarioController - Usuario encontrado: 21
+2024-10-17 08:48:51 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 08:48:51 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-10-17 08:48:51 - INFO - c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-10-17 12:43:23 - INFO - o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.3.Final
+2024-10-17 12:43:23 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Starting SistemaAosSpringBootApplication using Java 1.8.0_202 on DESKTOP-1493C6B with PID 9020 (C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot\target\classes started by FRANK in C:\Users\FRANK\Desktop\PRUEBA2\sistema-aos-spring-boot)
+2024-10-17 12:43:23 - INFO - c.e.a.s.SistemaAosSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-17 12:43:24 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-17 12:43:24 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-17 12:43:24 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17 12:43:25 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 10 JPA repository interfaces.
+2024-10-17 12:43:25 - INFO - o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-17 12:43:25 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-17 12:43:25 - INFO - o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 12:43:25 - INFO - o.a.c.c.StandardService - Starting service [Tomcat]
+2024-10-17 12:43:25 - INFO - o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-10-17 12:43:26 - INFO - o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-10-17 12:43:26 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1994 ms
+2024-10-17 12:43:26 - INFO - o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 12:43:26 - INFO - o.h.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+2024-10-17 12:43:26 - INFO - o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-17 12:43:26 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2024-10-17 12:43:26 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-17 12:43:26 - INFO - o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-17 12:43:27 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-17 12:43:27 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 12:43:28 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17 12:43:29 - INFO - o.s.s.w.DefaultSecurityFilterChain - Will not secure any request
+2024-10-17 12:43:30 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-17 12:43:30 - INFO - o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 12:43:30 - INFO - o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-17 12:43:30 - INFO - c.e.a.s.SistemaAosSpringBootApplication - Started SistemaAosSpringBootApplication in 6.849 seconds (JVM running for 8.174)
+2024-10-17 13:00:24 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17 13:00:24 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-17 13:00:24 - INFO - c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
